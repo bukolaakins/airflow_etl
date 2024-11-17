@@ -1,0 +1,28 @@
+# Ignore Airflow logs
+logs/
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore environment variables and sensitive config files
+.env
+
+# Ignore Docker-related override files
+docker-compose.override.yml
+docker-compose.override.local.yml
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore other non-essential files
+*.pid
+*.log
+
+# Ignore the config folder if it contains sensitive or environment-specific files
+config/
+
+# Ignore any other files you don't want in the repo
+*.sqlite
